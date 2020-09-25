@@ -9,7 +9,7 @@
 
 * 只测试自用脚本，其他大部分脚本未测试可用性.
 
-Surge脚本订阅配置：
+### Surge脚本订阅 ：
 
 * [视频教程](https://youtu.be/YwVZxtFFSpM)
 
@@ -18,7 +18,7 @@ Surge脚本订阅配置：
 * [Task.sgmodule](https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Task.sgmodule)
 
 
-## 免责声明：
+## 免责声明 ：
 
 * Tartarus2014发布的Script项目中涉及的任何解锁和解密分析脚本仅用于资源共享和学习研究，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
 
@@ -34,7 +34,7 @@ Surge脚本订阅配置：
 
 * 任何以任何方式查看此项目的人或直接或间接使用该Script项目的任何脚本的使用者都应仔细阅读此声明。Tartarus2014 保留随时更改或补充此免责声明的权利。一旦使用并复制了任何相关脚本或Script项目的规则，则视为您已接受此免责声明.
 
-### 特别感谢：
+### 特别感谢 ：
 * [@NobyDa](https://github.com/NobyDa)
 
 * [@lhie1](https://github.com/lhie1)
@@ -64,7 +64,6 @@ Surge脚本订阅配置：
 * [@lxk0301](https://github.com/lxk0301)
 
 * [@红鲤鱼与绿鲤鱼与驴](https://github.com/wangdelu2020)
-
 
 * [@iisams](https://github.com/iisams/Scripts)
 
