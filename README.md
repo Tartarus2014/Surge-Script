@@ -11,13 +11,11 @@
 
 Surge脚本订阅配置：
 
-视频教程
-(https://youtu.be/YwVZxtFFSpM)
+* [视频教程](https://youtu.be/YwVZxtFFSpM)
 
-Cookie_All_in_one.sgmodule获取Cookie模块 (https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Cookie.sgmodule)
+* [Cookie.conf](https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Cookie.sgmodule)
 
-Task_All_in_one.sgmodule 定时任务模块
-(https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Task.sgmodule)
+* [Task.conf](https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Task.sgmodule)
 
 
 ## 免责声明：
