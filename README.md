@@ -9,10 +9,15 @@
 
 * 只测试自用脚本，其他大部分脚本未测试可用性.
 
+Surge脚本订阅配置：
 
-* [Cookie.conf](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Cookie.conf)获取Cookie订阅
+视频教程
+(https://youtu.be/YwVZxtFFSpM)
 
-* [Task.conf](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Task.conf) 定时任务订阅
+Cookie_All_in_one.sgmodule获取Cookie模块 (https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Cookie.sgmodule)
+
+Task_All_in_one.sgmodule 定时任务模块
+(https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Task.sgmodule)
 
 
 ## 免责声明：
