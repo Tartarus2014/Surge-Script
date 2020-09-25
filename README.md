@@ -13,9 +13,9 @@ Surge脚本订阅配置：
 
 * [视频教程](https://youtu.be/YwVZxtFFSpM)
 
-* [Cookie.conf](https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Cookie.sgmodule)
+* [Cookie.sgmodule](https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Cookie.sgmodule)
 
-* [Task.conf](https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Task.sgmodule)
+* [Task.sgmodule](https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Task.sgmodule)
 
 
 ## 免责声明：
