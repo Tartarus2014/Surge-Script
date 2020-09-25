@@ -18,7 +18,7 @@ http-request ^https:\/\/passport\.biligame\.com\/api\/login\/sso.+?version%22%3A
 
 # > 百度贴吧
 # 打开App,点击'我的'
-http-request https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js, tag=百度贴吧(客户端)
+http-request https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
 
 # Chavyleung
 
@@ -41,7 +41,7 @@ http-request ^https:\/\/www\.smzdm\.com\/?.? script-path=https://raw.githubuserc
 http-request ^https:\/\/www\.v2ex\.com\/mission\/daily script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.cookie.js
 
 # > 哔哩哔哩
-# 浏览器访问并登录: https://www.bilibili.com 或 https://live.bilibili.com 系统提示:获取Cookie: 成功
+# 浏览器访问并登录: https://www.bilibili.com 或 https://live.bilibili.com 系统提示:获取Coookie
 http-request ^https:\/\/(www|live)\.bilibili\.com\/?.? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js
 
 # > 威锋论坛
@@ -294,10 +294,10 @@ http-request ^https:\/\/teacherapi\.zmlearn\.com\/v1\/teacherApp\/app\/points\/s
 http-request ^https:\/\/h5\.bianlifeng\.com\/meepo\/taskCenter\/home\/v\d script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js
 
 # > 欧可林 (By @zZPiglet)
-http-request ^https:\/\/mall\.oclean\.com\/API\/VshopProcess\.ashx$ script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean.js, tag=欧可林cookie
+http-request ^https:\/\/mall\.oclean\.com\/API\/VshopProcess\.ashx$ script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean.js
 
 # > 微信小程序 - 欧可林商城 (By @zZPiglet)
-http-request ^https:\/\/mall\.oclean\.com\/API\/VshopProcess\.ashx\?action=TaskHome&clientType=5&client=5&openId= script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js, tag=欧可林商城cookie
+http-request ^https:\/\/mall\.oclean\.com\/API\/VshopProcess\.ashx\?action=TaskHome&clientType=5&client=5&openId= script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js
 
 # > 微博通知 (By @zZPiglet)
 http-request ^https:\/\/m\.weibo\.cn\/feed\/ script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js
@@ -315,35 +315,35 @@ http-request https://m.ximalaya.com/wechat/ script-path=https://raw.githubuserco
 http-request ^https://app.jf.360.cn/signin/index/index script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/360.js
 
 # > 微博超话 (By Evilbutcher & toulanboy)
-http-request ^https:\/\/api\.weibo\.cn\/2\/(cardlist|page\/button) script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/weibo/weibotalk.cookie.js,requires-body=false, tag=微博超话cookie
+http-request ^https:\/\/api\.weibo\.cn\/2\/(cardlist|page\/button) script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/weibo/weibotalk.cookie.js,requires-body=false
 
 # > Funboat  (By Evilbutcher)
 http-request https:\/\/h5\.youzan\.com\/wscump\/checkin\/checkin tag=Funboat获取签到Cookie, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/funboat/funboat.js
 http-request https:\/\/h5\.youzan\.com\/wscuser\/membercenter\/stats tag=Funboat获取积分Cookie, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/funboat/funboat.js
 
 # > 小木虫论坛(By toulanboy)
-http-request ^https?:\/\/mapi.xmcimg.com\/bbs\/memcp.php\?action script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/muchong/muchong.js,requires-body=false, tag=小木虫论坛cookie
+http-request ^https?:\/\/mapi.xmcimg.com\/bbs\/memcp.php\?action script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/muchong/muchong.js,requires-body=false
 
 # > 京东价格提醒(By toulanboy)
-^http-request https:\/\/apapia-history\.manmanbuy\.com\/ChromeWidgetServices\/WidgetServices\.ashx script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,requires-body=true, tag=京东价格提醒cookie获取
+^http-request https:\/\/apapia-history\.manmanbuy\.com\/ChromeWidgetServices\/WidgetServices\.ashx script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js,requires-body=true
 
 # > qq会员成长值签到 (By @lowking0415)
-http-request ^https:\/\/proxy.vac.qq.com\/cgi-bin\/srfentry.fcgi script-path=https://raw.githubusercontent.com/lowking/Scripts/master/QQVip/qqVipCheckIn.js, tag=qq会员成长值cookie
+http-request ^https:\/\/proxy.vac.qq.com\/cgi-bin\/srfentry.fcgi script-path=https://raw.githubusercontent.com/lowking/Scripts/master/QQVip/qqVipCheckIn.js
 
 # > 哔哩哔哩番剧监控 (By @lowking0415)
-http-request https?:\/\/app.bilibili.com\/x\/v2\/space\/bangumi script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js, timeout=10, tag=哔哩哔哩番剧监控cookie
+http-request https?:\/\/app.bilibili.com\/x\/v2\/space\/bangumi script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js, timeout=10
 
 # > 叮咚农场养鱼 (By @iepngs)
-http-request ^https:\/\/maicai\.api\.ddxq\.mobi\/user\/checkLogin script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,tag=叮咚农场cookie
+http-request ^https:\/\/maicai\.api\.ddxq\.mobi\/user\/checkLogin script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js
 
 # > 惠头条 (By 红鲤鱼与绿鲤鱼与驴)
-http-request https:\/\/api\.cashtoutiao\.com script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/htt_cookie.js, requires-body=true, timeout=30, tag=惠头条cookie
+http-request https:\/\/api\.cashtoutiao\.com script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/htt_cookie.js, requires-body=true, timeout=30
 
 # > 趣看天下 (By 红鲤鱼与绿鲤鱼与驴)
-http-request https:\/\/(appv8\.qukantianxia|appv7\.qukantx)\.com script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/qktx_cookie.js, requires-body=true, timeout=30, tag=趣看天下cookie
+http-request https:\/\/(appv8\.qukantianxia|appv7\.qukantx)\.com script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/qktx_cookie.js, requires-body=true, timeout=30
 
 # > 特仑苏 (By 红鲤鱼与绿鲤鱼与驴)
-http-request https:\/\/xwsh\.javamall\.cn script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tls_cookie.js, requires-body=true, timeout=30, tag=特仑苏cookie
+http-request https:\/\/xwsh\.javamall\.cn script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tls_cookie.js, requires-body=true, timeout=30
 
 # > 彩云天气 (By Peng-YM)
 http-request https://weather-data.apple.com script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, require-body=false
@@ -377,21 +377,21 @@ http-request ^https:\/\/cxdng\.cpic\.com\.cn\/taieshop\/api\/CustomerFansInfo\/G
 http-request ^https:\/\/draw\.jdfcloud\.com\/\/pet\/enterRoom\?reqSource=weapp&invitePin=.*+(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?|^https:\/\/draw\.jdfcloud\.com\/\/pet\/helpFriend\?friendPin script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_help.js, requires-body=true, timeout=10, tag=宠汪汪强制为别人助力
 
 # 陌陌极速版 id 红鲤鱼
-http-request https:\/\/mk\.immomo\.com\/activity\/fastsign\/index\/signIn? script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/momosign.js, requires-body=true, timeout=30, tag=陌陌极速版
+http-request https:\/\/mk\.immomo\.com\/activity\/fastsign\/index\/signIn? script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/momosign.js, requires-body=true, timeout=30
 
 # 趣走尊享版 id 红鲤鱼
-http-request https:\/\/mobile01\.91quzou\.com\/rebate\/qz\/task\/homeTaskView\.do script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/quwalk2.2.js, requires-body=true, timeout=30, tag=趣走签到
+http-request https:\/\/mobile01\.91quzou\.com\/rebate\/qz\/task\/homeTaskView\.do script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/quwalk2.2.js, requires-body=true, timeout=30
 
 # 哔哩哔哩 番剧监控
-http-request https?:\/\/app.bilibili.com\/x\/v2\/space\/bangumi script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js, timeout=10, tag=哔哩哔哩番剧监控cookie
+http-request https?:\/\/app.bilibili.com\/x\/v2\/space\/bangumi script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js, timeout=10
 
 # 斗鱼鱼吧 id：lowking
 #（打开https://yuba.douyu.com/homepage/hotwbs并登陆，打开获取cookie，刷新页面，提示获取鱼吧关注列表成功）
-http-request ^https://yuba.douyu.com/wbapi/web/group/myFollow script-path=https://raw.githubusercontent.com/lowking/Scripts/master/douyu/yubaSign.js, timeout=10, tag=斗鱼鱼吧获取cookie
+http-request ^https://yuba.douyu.com/wbapi/web/group/myFollow script-path=https://raw.githubusercontent.com/lowking/Scripts/master/douyu/yubaSign.js, timeout=10
 
 # qq萌宠  id：lowking
 # 按下面配置完之后，手机qq进入左侧会员，再点击右侧qq宠物(如果没弹出获取成功通知，点击右上角3个点，重启小程序
-http-response https:\/\/qqpet.jwetech.com\/api\/authorizations script-path=https://raw.githubusercontent.com/lowking/Scripts/master/QQPet/lkQQPet.js, timeout=10, requires-body=true, tag=QQ萌宠cookie
+http-response https:\/\/qqpet.jwetech.com\/api\/authorizations script-path=https://raw.githubusercontent.com/lowking/Scripts/master/QQPet/lkQQPet.js, timeout=10, requires-body=true
 
 # 小米有品 id 小可爱
 # 获取方式:进入签到页面获取，https://m.xiaomiyoupin.com:个人中心->我的资产->积分
@@ -408,40 +408,40 @@ http-request ^https:\/\/api\.kkmh\.com\/v\d\/passport\/user script-path=https://
 
 # 音乐line 打卡  id ziye12
 # 微信扫码   https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.png  进入小程序，登录获取授权
-http-request ^https:\/\/www\.baimaa\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js, requires-body=true, timeout=10, tag=音乐line打卡
+http-request ^https:\/\/www\.baimaa\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js, requires-body=true, timeout=10
 
 # 爱尚打卡 id ziye12
 # 微信扫码  https://raw.githubusercontent.com/ziye12/JavaScript/master/asdkziye.png 进入小程序，登录获取授权
-http-request ^https:\/\/ph0001\.hezyq\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/asdkziye.js, requires-body=true, timeout=10, tag=爱尚打卡
+http-request ^https:\/\/ph0001\.hezyq\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/asdkziye.js, requires-body=true, timeout=10
 
 # 陀螺打卡id ziye12
 # 微信扫码 https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.png 进入小程序，登录获取授权
-http-request ^https:\/\/wq\.02gk\.com\/* script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.js, requires-body=true, timeout=10, enabled=false, tag=陀螺打卡
+http-request ^https:\/\/wq\.02gk\.com\/* script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.js, requires-body=true, timeout=10, enabled=false
 
 # 玩游戏打卡 id ziye12
 # 微信扫码  https://raw.githubusercontent.com/ziye12/JavaScript/master/wyxdkziye.png 进入小程序，登录获取授权
-http-request ^https:\/\/we7\.ivee\.top\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/wyxdkziye.js, requires-body=true, timeout=10, tag=玩游戏打卡
+http-request ^https:\/\/we7\.ivee\.top\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/wyxdkziye.js, requires-body=true, timeout=10
 
 # 早起打卡 id ziye12
 # 微信扫码  https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.png 进入小程序，登录获取授权
-http-request ^https:\/\/ph0001\.hezyq\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.js, requires-body=true, timeout=10, tag=早起打卡
+http-request ^https:\/\/ph0001\.hezyq\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.js, requires-body=true, timeout=10
 
 # 梨涡app： https://bit.ly/33BRwHW  id iisams 
-http-request https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7dayscookie.js, requires-body=true, timeout=10, tag=梨涡签到领现金Cookie
+http-request https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7dayscookie.js, requires-body=true, timeout=10
 
 # 航旅纵横 pro 
 http-request ^https:\/\/cloud\.umetrip\.com\/gateway\/api\/web\/rest\/polite\/app\/sign\/signpageinitdata script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
 
 # 宠汪汪助力获取Cookie
-http-response ^https:\/\/draw\.jdfcloud\.com\/\/api\/user\/addUser\?code=\w+& script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js, requires-body=true, timeout=10, tag=宠汪汪助力更新Token
-http-request ^https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\? script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js, requires-body=true, timeout=10, tag=宠汪汪助力获取Token
+http-response ^https:\/\/draw\.jdfcloud\.com\/\/api\/user\/addUser\?code=\w+& script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js, requires-body=true, timeout=10
+http-request ^https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\? script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js, requires-body=true, timeout=10
 
 # iklear签到 @LJJJia
 # 获取cookie方法：
 # 浏览器打开iklear官方微商城h5，链接：
 # https://shop42867343.m.youzan.com/v2/feature/koy4ThfGd6?st=1&is_share=1&from_uuid=631f330d-80c2-626f-173f-f4855e50ee12&sf=wx_sm&share_cmpt=native_wechat
 # 点击我的订单 => 右上角“签到” => 签到，提示 “🎉获取Cookie: 成功” 即可使用checkin脚本自动签到。
-http-request ^https:\/\/shop42867343\.youzan\.com\/wscump\/checkin\/checkin\.json script-path=https://raw.githubusercontent.com/LJJJia/script/master/iklear/iklear_cookie.js, timeout=10, tag=iklear_cookie
+http-request ^https:\/\/shop42867343\.youzan\.com\/wscump\/checkin\/checkin\.json script-path=https://raw.githubusercontent.com/LJJJia/script/master/iklear/iklear_cookie.js, timeout=10
 
 [MITM]
 hostname = %APPEND% shop42867343.youzan.com,draw.jdfcloud.com,ph0001.hezyq.com,we7.ivee.top,wq.02gk.com,ph0001.hezyq.com,www.baimaa.com,ifac*.iqiyi.com, api.kkmh.com,studygolang.com,www.cuuc.club,m.xiaomiyoupin.com,passport.biligame.com,m.ctrip.com,mobile01.91quzou.com, mk.immomo.com, draw.jdfcloud.com, cxdng.cpic.com.cn, geekhub.com, h5.youzan.com, huiyuan.163.com, api.infzm.com, api.xiaoheihe.cn, exp.angelalign.com, ngabbs.com, api.umer.com.cn, app*.jegotrip.com.cn, task.jegotrip.com.cn, my.ruanmei.com, www.mydigit.cn, wx-mini.pagoda.com.cn, m.weibo.cn, apapia-history.manmanbuy.com, weather-data.apple.com, mall.oclean.com, api.cashtoutiao.com, user-api-prd-mx.wandafilm.com, h5.bianlifeng.com, teacherapi.zmlearn.com, clientaccess.10086.cn, maicai.api.ddxq.mobi, vip.heytea.com, webapi.qmai.cn, proapi.115.com, proxy.vac.qq.com, *.xmcimg.com, as.xiaojukeji.com, note.youdao.com, ios.baertt.com, xiaoshuo.qm989.com, api.m.jd.com, music.163.com, c.tieba.baidu.com, weibo.com, *.smzdm.com, *.v2ex.com, www.52pojie.cn, passport.biligame.com, *.feng.com, *.video.qq.com, *.acfun.cn, *.rrys2020.com, mobwsa.ximalaya.com, *.rr.tv, www.flyertea.com, wapside.189.cn:9001, sf-integral-sign-in.weixinjia.net, h5.ele.me, *.you.163.com, apk.tw, api.dongqiudi.com, *.m.163.com, user.qunar.com, yuba.douyu.com, ios.zmzapi.com, *.y.qq.com, *.csdn.net, m.ctrip.com, m.gdoil.cn, credits.bz.mgtv.com, api-takumi.mihoyo.com, act.10010.com, e.189.cn,  www.maomicd.com, wx.10086.cn, mtrace.qq.com, www.lltxt.com, weclub.ccc.cmbchina.com, promotion.waimai.meituan.com, i.meituan.com, daojia.jd.com, api-hdcj.9w9.com, api.everphoto.cn, group.baicizhan.com, maicai.api.ddxq.mobi, pm.m.fenqile.com, ms.jr.jd.com, nebula.kuaishou.com, api.dushu.io, node.kg.qq.com, app.nio.com, wxprdapplet.gac-nio.com, activity-1.m.duiba.com.cn, m.client.10010.com, m-bean.kaola.com, 110.43.90.61, zt.wps.cn, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, m.ximalaya.com, iphone.myzaker.com, draw.jdfcloud.com, sapi.beingfine.cn, icbc1.wlphp.com, wx.17u.cn, frodo.douban.com, mcs-mimp-web.sf-express.com, gameapi.hellobike.com, mwegame.qq.com, api.1sapp.com, tieba.baidu.com, m.ximalaya.com, app.jf.360.cn, api.weibo.cn, pay.sc.weibo.com, api.inews.qq.com, newsapi.sina.cn, *.youth.cn, apiwz.midukanshu.com, www.duokan.com, appv8.qukantianxia.com, appv7.qukantx.com, xwsh.javamall.cn,weather-data.apple.com, api.weather.com
