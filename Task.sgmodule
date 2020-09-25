@@ -1,6 +1,8 @@
-# Task配置 By Tartarus
-# Loon群组：https://t.me/Loon0x00
+#!name=Tartarus iOS Tasks Module
+#!desc=iOS Tasks 模块配置
+#!system=ios
 
+[Script]
 # 定时脚本
 # 彩云天气 (By Peng-YM)
 # 打开手机设置 > 隐私 > 定位服务
