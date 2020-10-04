@@ -3,10 +3,6 @@
 #!system=ios
 
 [Script]
-# Task配置 By Tartarus
-# Loon群组：https://t.me/Loon0x00
-
-
 # By Evilbutcher GitHub：https://github.com/evilbutcher/Quantumult_X/tree/master
 cron "0 6 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js, tag=NASA每日一图
 cron "0 6 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js, tag=iDaily每日环球视野
