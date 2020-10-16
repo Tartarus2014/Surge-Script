@@ -198,6 +198,14 @@ http-request ^http?:\/\/hongbao\.youzikuaibao\.com\/youzi\/* script-path=https:/
 http-request ^https:\/\/jdread-api\.jd\.com\/* script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/jddsSign.js, timeout=10, tag=京东读书签到
 http-request ^https:\/\/getconfig-globalapi\.zymk\.cn\/app_api\/* script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/zymkSign.js, timeout=10, tag=知音漫客
 
+# 红鲤鱼与绿鲤鱼与驴
+http-request https:\/\/mk\.immomo\.com\/activity\/fastsign\/index\/signIn? script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/momosign.js, timeout=30, tag=陌陌极速版
+http-request https:\/\/mobile01\.91quzou\.com\/rebate\/qz\/task\/homeTaskView\.do script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/quwalk2.2.js, timeout=30, tag=趣走签到
+http-request https:\/\/api\.cashtoutiao\.com script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/htt_task_4.js, timeout=30, tag=惠头条cookie
+http-request https:\/\/(appv8\.qukantianxia|appv7\.qukantx)\.com script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/qktx_task3.js, timeout=30, tag=趣看天下cookie
+http-request https:\/\/xwsh\.javamall\.cn script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tls_task.js, timeout=30, tag=特仑苏cookie
+http-request https:\/\/m.client\.10010\.com\/mobileService\/home\/queryUserInfoSeven\.htm? script-path=https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/liantongnotice.js, timeout=30, tag=联通流量话费提醒
+
 # iNotification   
 http-request ^https:\/\/www\.lltxt\.com/hack\.php\?H_name=qiandao&action=qiandao script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/loulancheck.js, tag=楼兰小说论坛 
 http-request https://weclub\.ccc\.cmbchina.com/SCRMCustomActivityFront/checkin/request/get-home-data\.json\?activityCode=checkin script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/cmbchina.js, tag=招行信用卡公众号 
