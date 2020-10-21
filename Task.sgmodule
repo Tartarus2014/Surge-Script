@@ -47,6 +47,8 @@ cron "1 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scri
 cron "15 10 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js, timeout=30, tag=宠汪汪邀请助力与赛跑助力
 cron "1 1 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_redPacket.js, tag=京东全民开红包
 cron "0 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js, tag=京东白条
+cron "1 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_818.js, tag=京东手机狂欢城
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_xtg.js, tag=星推
 
 # By NobyDa    GitHub：https://github.com/NobyDa/Script/tree/master
 cron "15 0 * * *" ,timeout=30, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,timeout=30, tag=东东
@@ -171,6 +173,7 @@ cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/dompling/Script
 cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/historyToday/index.js, tag=历史上的今天,
 cron "3 0 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/birthdayCountDown/index.js, tag=生日倒计时
 cron "0 0 0,2 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/xiaomiyp/xiaomiyp.js, tag=小米有品
+cron "10 0 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/ymatou/ymatou.js, tag=ymatou
 
 # songyangzz   https://github.com/songyangzz/QuantumultX
 cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/lol.js,tag=英雄联盟排名
@@ -187,6 +190,8 @@ cron "10 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/S
 cron "20 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/tongc/tongc_sign.js, tag=微信小程序-同程艺龙
 cron "20 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/tongc/tongc_info.js, tag=微信小程序-同程艺龙info
 cron "10 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/fcz/fcz_sign.js, tag=飞常准
+cron "10 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/jddj/jddj.js, tag=京东到家
+cron "10 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/tie/tie_sign.js, tag=京东金融提额
 
 # congcong0806   https://github.com/congcong0806/surge-list/tree/master
 cron "0 8 * * *" script-path=https://github.com/congcong0806/surge-list/raw/master/Script/daysmatter.js, tag=倒数日
