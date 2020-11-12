@@ -44,12 +44,14 @@ cron "11 1-23/5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_
 cron "20 5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js,timeout=30, tag=京小超领蓝币(兑换京豆)
 cron "55 23 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_unsubscribe.js,timeout=30, tag=取关京东店铺商品
 cron "10 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_shop.js,timeout=30, tag=进店领豆
-cron "1 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_818.js, timeout=30, tag=京东手机狂欢城
+#cron "1 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_818.js, timeout=30, tag=京东手机狂欢城
 cron "15 10 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_run.js, timeout=30, tag=宠汪汪邀请助力与赛跑助力
+cron "15 14 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_daily_egg.js, tag=天天提鹅
+cron "12 13 * * *" script-path= https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pigPet.js, tag=金融养猪
 cron "1 1 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_redPacket.js, tag=京东全民开红包
 cron "0 19 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js, tag=京东白条
-cron "1 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_xtg.js, tag=星推
-cron "20 * * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_collectProduceScore.js, tag=京东全民营业领金币
+#cron "1 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_xtg.js, tag=星推
+#cron "20 * * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_collectProduceScore.js, tag=京东全民营业领金币
 cron "2 9 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_change.js, tag=京豆变动通知
 
 # By NobyDa    GitHub：https://github.com/NobyDa/Script/tree/master
@@ -201,8 +203,6 @@ cron "0 7-23 * * *" script-path=https://github.com/congcong0806/surge-list/raw/m
 
 # MeetaGit    https://github.com/MeetaGit/MeetaRules/tree/master/Surge
 cron "0 0/5 13-23 * * *" script-path=https://raw.githubusercontent.com/MeetaGit/MeetaRules/m%CE%B1ster/Surge/Custom_Js/lottery_xyft.js, tag=幸运飞艇
-cron "0 0 8,18 * * *" script-path=https://raw.githubusercontent.com/MeetaGit/MeetaRules/master/Surge/Scripting/Calendar.js, tag=一言+历史上的今天
-cron "0 0 8-20/1 * * *" script-path=https://raw.githubusercontent.com/MeetaGit/MeetaRules/m%CE%B1ster/Surge/Scripting/meweather.js, tag=meweather
 
 # yichahucha    https://github.com/yichahucha/surge/tree/master
 cron "11 7 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js, tag=每日一句+蚂蚁森林收能量
@@ -279,8 +279,8 @@ cron "2 0 * * *" script-path=https://raw.githubusercontent.com/LJJJia/script/mas
 cron "10 0 8 * * *" script-path=https://raw.githubusercontent.com/photonmang/quantumultX/master/tuhu/tuhu.js, tag=途虎养车
 
 # yangtingxiao
-cron "5 9-22 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_bigWinner.js, tag=京东大赢家
+#cron "5 9-22 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_bigWinner.js, tag=京东大赢家
 cron "10 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/ttwk/ttwk.js, tag=天天挖矿
-cron "20 0-20/4 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_timeMachine.js, tag=京东时光机
+#cron "20 0-20/4 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_timeMachine.js, tag=京东时光机
 cron "5 9 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_starStore.js, tag=京东星店长
-cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机
+#cron "11 1 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机
