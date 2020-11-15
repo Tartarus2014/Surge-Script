@@ -1,5 +1,6 @@
-  
-# 去除漫画人广告
+#!name=Tartarus iOS ManHuaRen Module
+#!desc=iOS ManHuaRen 
+
 # 漫画人链接：https://www.manhuaren.com/
 
 [Rule]
