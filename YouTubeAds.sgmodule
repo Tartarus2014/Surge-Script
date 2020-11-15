@@ -1,5 +1,5 @@
-#!name=YouTuBe
-#!desc=YouTuBe去广告
+#!name=YouTube
+#!desc=YouTube去广告
 
 [Rule]
 URL-REGEX,https?:\/\/.+.googlevideo.com\/ptracking\?pltype=adhost,REJECT
