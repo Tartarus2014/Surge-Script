@@ -26,7 +26,7 @@ cron "0 * * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/mas
 cron "0 18 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar.js, tag=豆瓣电影日历
 cron "0 25 7 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Alipay/Alipay.js, tag=Alipay
 cron "7 0 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js, tag=航旅纵横
-cron "59 23 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js,tag=滴滴出行
+cron "0 1,20 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行
 
 # By lxk0301   GitHub：https://github.com/lxk0301/scripts
 cron "5 6-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_fruit.js,timeout=30,  tag=东东农场
@@ -207,9 +207,6 @@ cron "0 0/5 13-23 * * *" script-path=https://raw.githubusercontent.com/MeetaGit/
 # yichahucha    https://github.com/yichahucha/surge/tree/master
 cron "11 7 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js, tag=每日一句+蚂蚁森林收能量
 
-# Tartarus    https://github.com/Tartarus2014/Script
-cron "3 0 * * *" script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/DiDi.js, tag=滴滴出行
-
 # iNotification   
 cron "40 9 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/loulancheck.js, tag=楼兰小说
 cron "50 9 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/cmbchina.js, tag=招行信用卡
@@ -242,6 +239,7 @@ cron "0 12 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX
 # ziye12 https://github.com/ziye12/JavaScript
 cron "13 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js, tag=音乐打卡
 cron "10 0/1 * * *" script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.js, tag=早起打卡
+
 # iisams 
 cron "7 0 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7days.js, tag=梨涡签到领现金
 cron "5 8 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js, tag= 京东特权值
