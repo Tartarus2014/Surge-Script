@@ -1,6 +1,5 @@
 #!name=Bilibili
 #!desc=BiliBili去广告
-#!system=ios
 
 [Rule]
 URL-REGEX,https://app.bilibili.com/x/v2/(splash|search/(defaultword|square)),REJECT

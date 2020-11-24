@@ -1,6 +1,5 @@
 #!name=Tartarus iOS DouYin Module
 #!desc=iOS Douyin 模块配置
-#!system=ios
 
 [Rule]
 DOMAIN-SUFFIX, amemv.com, DIRECT

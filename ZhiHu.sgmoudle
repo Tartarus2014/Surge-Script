@@ -1,6 +1,5 @@
 #!name=知乎
 #!desc=知乎去广告
-#!system=ios
 
 [Rule]
 # 知乎广告拦截

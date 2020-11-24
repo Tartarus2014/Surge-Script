@@ -1,5 +1,6 @@
-  
-# 去除漫画人广告
+#!name=漫画人
+#!desc=漫画人去广告
+
 # 漫画人链接：https://www.manhuaren.com/
 
 [Rule]
