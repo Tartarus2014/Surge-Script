@@ -2,11 +2,6 @@
 #!desc=iOS Cookies 模块配置
 
 [Script]
-# 获取Cookie订阅 By Tartarus2014
-# 该订阅仅适用于定时签到脚本的Cookie获取.
-# 集成: NobyDa、Chavy以及个人收集常用签到脚本,其他签到脚本会陆续添加.
-# 您可以在使用后手动将其禁用，以免产生不必要的MITM.
-
 # Chavy  (apiwz.midukanshu.com, api.1sapp.com, frodo.douban.com, luckman.suning.com, passport.suning.com, sign.suning.com, gameapi.suning.com, m.ctrip.com, 110.43.90.61, zt.wps.cn, m-bean.kaola.com, daojia.jd.com, app.nio.com, wxprdapplet.gac-nio.com, node.kg.qq.com, api.dushu.io, pm.m.fenqile.com, maicai.api.ddxq.mobi, group.baicizhan.com, api.everphoto.cn, i.meituan.com, promotion.waimai.meituan.com, wx.10086.cn, www.maomicd.com, m.client.10010.com, act.10010.com, api-takumi.mihoyo.com, m.gdoil.cn, credits.bz.mgtv.com, *.csdn.net, wapside.189.cn, *.acfun.cn, apk.tw, *.bilibili.com, api.dongqiudi.com, *.feng.com, www.flyertea.com, music.163.com, *.m.163.com, user.qunar.com, *.rr.tv, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, *.smzdm.com, tieba.baidu.com, *.v2ex.com, *.video.qq.com, mobwsa.ximalaya.com, *.you.163.com, *.rrys2020.com, ios.zmzapi.com）
 http-request ^https?:\/\/tieba\.baidu\.com\/?.? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.cookie.js, tag=百度签到(网页)
 http-request ^https:\/\/music.163.com\/weapi\/user\/level script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js, requires-body=true, tag=网易云音乐
@@ -114,7 +109,7 @@ http-request ^https?://m?api\.weibo\.c(n|om)\/2\/(cardlist|page\/button|page) sc
 http-request ^https:\/\/www\.baimaa\.com\/* script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js, requires-body=true, tag=音乐line打卡
 http-request ^https:\/\/ph0001\.hezyq\.com\/* script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.js, requires-body=true, tag=早起打卡
 
-# zZPiglet  (as.xiaojukeji.com,proapi.115.com,webapi.qmai.cn,teacherapi.zmlearn.com,h5.bianlifeng.com,mall.oclean.com,m.weibo.cn,api.xiaoheihe.cn,frodo.douban.com,cloud.umetrip.com)
+# zZPiglet  (superapp.kiwa-tech.com, activity-1.m.duiba.com.cn,as.xiaojukeji.com,proapi.115.com,webapi.qmai.cn,teacherapi.zmlearn.com,h5.bianlifeng.com,mall.oclean.com,m.weibo.cn,api.xiaoheihe.cn,frodo.douban.com,cloud.umetrip.com)
 http-request ^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行
 http-request ^https:\/\/common\.diditaxi\.com\.cn\/webapp\/config\/sidebar\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行
 http-request ^https?:\/\/proapi\.115\.com\/ios\/user\/takespc\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js, tag=115
@@ -127,6 +122,8 @@ http-request ^https:\/\/m\.weibo\.cn\/feed\/ script-path=https://raw.githubuserc
 http-request ^https:\/\/api\.xiaoheihe\.cn\/account\/home_v\d\/\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/heybox/heybox.js, tag=小黑盒
 http-request ^https:\/\/frodo\.douban\.com\/api\/v\d\/calendar\/today script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar.js, tag=豆瓣电影日历
 http-request ^https:\/\/cloud\.umetrip\.com\/gateway\/api\/web\/rest\/polite\/app\/sign\/signpageinitdata script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js, tag=航旅纵横
+http-request ^https:\/\/superapp\.kiwa-tech\.com\/app\/coupon\/customerLevelShow requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js
+http-request ^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/getSignInfo script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js
 
 # Peng-YM (weather-data.apple.com, api.weather.com)
 http-request https://weather-data.apple.com script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, tag=彩云天气
