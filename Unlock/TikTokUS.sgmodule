@@ -1,15 +1,12 @@
-#!name=Unlock TikTok US
-#!desc=By pysat
-#!system=ios
-
-[General]
-force-http-engine-hosts = %APPEND% api-h2.tiktokv.com:443,api.tiktokv.com:443
+#!name=TikTok Unlock
+#!desc=TikTok 1.80+ Unlock
 
 [URL Rewrite]
+#tiktok解锁直播区域限制
 (?<=_region=)CN(?=&) US 307
-(?<=\?version_code=)1[6-9]..(?=.?.?&) 100. 307
-(?<=&app_version=)1[6-9]..(?=.?.?&) 100. 307
-^https://api[\w-]*?.tiktokv.com/aweme/v\d/policy/notice/? - reject
+(?<=&mcc_mnc=)4 2 307
+^(https?:\/\/dm[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
+(^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
 
 [MITM]
-hostname = %INSERT% *sg.tiktokv.com,*a.tiktokv.com
+hostname = %APPEND% *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
