@@ -49,11 +49,6 @@ http-response ^https:\/\/lysl2020.com/wp-json/wp/v2/posts/* requires-body=1,scri
 http-response ^https:\/\/www.i3zh.com/wp-json/wp/v2/posts/* requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js, tag=搜罗好货
 http-response ^https:\/\/api\.gotokeep\.com\/* requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/keep.js, tag=Keep
 
-#  Co2333
-http-response ^https://mb3admin.com/admin/service/registration/validateDevice requires-body=1,max-size=0,script-path=https://subweb.oss-cn-hongkong.aliyuncs.com/Script/emby-adr-vD.js, tag=embyUnlocked
-http-response ^https://mb3admin.com/admin/service/registration/validate requires-body=1,max-size=0,script-path=https://subweb.oss-cn-hongkong.aliyuncs.com/Script/emby-adr-v.js, tag=embyUnlocked
-http-response ^https://mb3admin.com/admin/service/registration/getStatus requires-body=1,max-size=0,script-path=https://subweb.oss-cn-hongkong.aliyuncs.com/Script/emby-adr-gS.js, tag=embyUnlocked
-
 # ZhiYi-N
 http-response https:\/\/api2\.mubu\.com\/v3\/api\/user\/current_user script-path=https://raw.githubusercontent.com/ZhiYi-N/Loon/master/mb.js, requires-body=true, timeout=10, tag=幕布
 http-response https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://raw.githubusercontent.com/ZhiYi-N/Loon/master/picsew.js, requires-body=true, timeout=10, tag=piesew
