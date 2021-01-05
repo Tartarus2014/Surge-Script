@@ -1,5 +1,5 @@
 #!name=Doh
-#!desc=Doh
+#!desc=DNS over HTTPS (DoH).
 
 [General]
 doh-server = https://cdn-doh.ssnm.xyz/dns-query
