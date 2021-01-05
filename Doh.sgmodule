@@ -1,0 +1,5 @@
+#!name=Doh
+#!desc=Doh
+
+[General]
+doh-server = https://cdn-doh.ssnm.xyz/dns-query
