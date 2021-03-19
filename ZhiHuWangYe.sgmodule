@@ -13,8 +13,5 @@
 [Header Rewrite]
 ^https://www\.zhihu\.com\/(question|topic) header-replace User-Agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
 
-[Script]
-zhihux = type=http-response,pattern=^https:\/\/www\.zhihu\.com\/question,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/zhihux.user.js
-
 [MITM]
 hostname = %APPEND% www.zhihu.com,link.zhihu.com,oia.zhihu.com
