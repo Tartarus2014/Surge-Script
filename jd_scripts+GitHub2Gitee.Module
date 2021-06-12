@@ -1,8 +1,0 @@
-#!name=jd_scripts GitHub2Gitee
-#!desc=LXK9301 GitHub 转 Gitee
-
-[URL Rewrite]
-^https:\/\/raw\.githubusercontent\.com\/LXK9301\/jd_scripts\/ https://gitee.com/lxk0301/jd_scripts/raw/ 302
-
-[MITM]
-hostname = %APPEND% raw.githubusercontent.com
